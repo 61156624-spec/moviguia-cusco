@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moviguia - Guía de Transporte Público en Cusco</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <nav class="navbar">
+                <div class="logo">
+                    <i class="fas fa-bus"></i>
+                    <h1>Moviguia</h1>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#rutas">Rutas</a></li>
+                    <li><a href="#mapa">Mapa</a></li>
+                    <li><a href="#consejos">Consejos</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+                <div class="mobile-menu">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section con Carrusel Simplificado -->
+    <section class="hero" id="inicio">
+        <div class="carousel-container">
+            <!-- Las imágenes se cargarán dinámicamente con JavaScript -->
+        </div>
+        
+        <div class="carousel-content">
+            <h2>Guía de Transporte Público en Cusco</h2>
+            <p>Encuentra las mejores rutas de buses, combis y taxis para moverte por la ciudad imperial del Cusco</p>
+        </div>
+        <a href="#rutas" class="cta-button" id="cta-button">Explorar Rutas</a>
+    </section>
+
+    <!-- Rutas Section -->
+    <section class="container" id="rutas">
+        <div class="section-title">
+            <h2>Rutas de Transporte Público</h2>
+            <p>Descubre las principales rutas que conectan la ciudad del Cusco</p>
+        </div>
+        <div class="routes-grid" id="routes-container">
+            <!-- Las rutas se cargarán dinámicamente con JavaScript -->
+        </div>
+    </section>
+
+    <!-- Mapa Section -->
+    <section class="map-section" id="mapa">
+        <div class="container">
+            <div class="section-title">
+                <h2>Mapa de Rutas</h2>
+                <p>Visualiza todas las rutas en nuestro mapa interactivo</p>
+            </div>
+            <div class="map-container">
+                <div class="map-placeholder">
+                    <i class="fas fa-map-marked-alt"></i>
+                    <h3>Mapa Interactivo de Cusco</h3>
+                    <p>Próximamente: Visualización completa de todas las rutas</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Consejos Section -->
+    <section class="container" id="consejos">
+        <div class="section-title">
+            <h2>Consejos para el Transporte</h2>
+            <p>Recomendaciones para una mejor experiencia de viaje</p>
+        </div>
+        <div class="tips-grid">
+            <div class="tip-card">
+                <i class="fas fa-money-bill-wave"></i>
+                <h3>Tarifas</h3>
+                <p>Ten monedas y billetes pequeños listos para pagar tu pasaje de manera rápida</p>
+            </div>
+            <div class="tip-card">
+                <i class="fas fa-clock"></i>
+                <h3>Horarios</h3>
+                <p>Los buses operan de 5:00 am a 10:00 pm aproximadamente en la mayoría de rutas</p>
+            </div>
+            <div class="tip-card">
+                <i class="fas fa-user-friends"></i>
+                <h3>Horas Pico</h3>
+                <p>Evita viajar entre 7-9 am y 5-7 pm para mayor comodidad y menos aglomeración</p>
+            </div>
+            <div class="tip-card">
+                <i class="fas fa-map-signs"></i>
+                <h3>Señalización</h3>
+                <p>Fíjate en los letreros del parabrisas para identificar correctamente la ruta</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacto Section -->
+    <section class="container" id="contacto">
+        <div class="section-title">
+            <h2>Contacto</h2>
+            <p>¿Tienes preguntas o sugerencias? Escríbenos</p>
+        </div>
+        <form class="contact-form" id="contact-form">
+            <div class="form-group">
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Mensaje:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="cta-button">Enviar Mensaje</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>Moviguia</h3>
+                    <p>Tu guía confiable para moverte por el transporte público de Cusco. Simplificamos tu viaje diario.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <h3>Enlaces Rápidos</h3>
+                    <ul class="footer-links">
+                        <li><a href="#inicio">Inicio</a></li>
+                        <li><a href="#rutas">Rutas</a></li>
+                        <li><a href="#mapa">Mapa</a></li>
+                        <li><a href="#consejos">Consejos</a></li>
+                        <li><a href="#contacto">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Contacto</h3>
+                    <ul class="footer-links">
+                        <li><i class="fas fa-envelope"></i> info@moviguia.com</li>
+                        <li><i class="fas fa-phone"></i> +51 984 123 456</li>
+                        <li><i class="fas fa-map-marker-alt"></i> Cusco, Perú</li>
+                        <li><i class="fas fa-clock"></i> Lun - Vie: 8:00 - 18:00</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2023 Moviguia - Todos los derechos reservados. | Diseñado con ❤️ para Cusco</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Modal para detalles de ruta -->
+    <div class="modal" id="route-modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div class="modal-route-header">
+                <div class="route-number" id="modal-route-number">RTU-01</div>
+                <div class="route-name" id="modal-route-name">Patrón de San Jerónimo</div>
+            </div>
+            <div class="route-info">
+                <span><i class="far fa-clock"></i> <span id="modal-route-time">25-35 min</span></span>
+                <span><i class="fas fa-money-bill-wave"></i> <span id="modal-route-fare">S/ 1.00</span></span>
+            </div>
+            <div class="modal-route-stops" id="modal-route-stops">
+                <!-- Las paradas se cargarán aquí -->
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
